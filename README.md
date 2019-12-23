@@ -1,3 +1,5 @@
+# blog_react_redux
+This is blog made with React, Redux and Axios. This is a personal project just to improve my skills.
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -66,3 +68,26 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+## End
+  If you want to improve this repository, please send a pull request and I will read your code. If I consider it helps then I will accept.
+  **Thanks for reading**
+
+## Author
+- **Camilo Laiton** [[CamiloLaiton]](https://github.com/camilolaiton)
+
+------------
+If you want to communicate with me then go to my **Github Account** and there is my **Instagram's profile**. You can send me a message.
+
+**Spoken Languages** :blush:
+1. **Spanish** :es:
+2. **English** :us:
+3. **French** :fr:
+
+------------
+
+## Note
+> If you want to help with some exercises or if I have any mistake or you want to improve an algorithm, please contact me!
+> I will be uptading this repository with new stuff and comments in the code.
+
+See also the list of [contributors](https://github.com/camilolaiton/blog_react_redux/graphs/contributors) who participated in this project.
