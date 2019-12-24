@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter, Switch, Route} from 'react-router-dom';
 import Menu from './menu';
 import Usuario from './Usuarios';
+import Publicaciones from './Publicaciones';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Tareas = () => {
@@ -21,6 +22,7 @@ const App = () => {
       <Switch>
         <Route exact path='/' component={ Usuario } />
         <Route exact path='/tareas' component={ Tareas } />
+        <Route exact path='/publicaciones/:key' component={ Publicaciones } />
       </Switch>
       
     </BrowserRouter>

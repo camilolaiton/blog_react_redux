@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Jumbotron, Badge} from 'react-bootstrap';
+import { Badge} from 'react-bootstrap';
 
 import { connect } from 'react-redux';
 import * as usuariosActions from '../../actions/usuariosActions';
@@ -11,9 +11,10 @@ import Tabla from './tabla';
 class Usuario extends Component {
 
   componentDidMount() {
-  
-    this.props.traerTodos();
-  
+    
+    if(!this.props.usuarios.length) {
+      this.props.traerTodos();
+    }
   }
 
   renderTable = () => {
@@ -36,18 +37,10 @@ class Usuario extends Component {
   }
   
   render() {
-    console.log(this.props.cargando);
-    console.log(this.props.error);
+    console.log(this.props);
 
     return (
         <React.Fragment>
-            <Jumbotron>
-                <h1>Hello!</h1>
-                <p>
-                    This is a simple hero unit, a simple jumbotron-style component for calling
-                    extra attention to featured content or information.
-                </p>
-            </Jumbotron>
             <div className="App">
               <div className="center">
                 <Badge pill variant="info">Usuarios</Badge>
