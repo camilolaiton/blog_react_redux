@@ -2,17 +2,9 @@ import React from 'react';
 import { BrowserRouter, Switch, Route} from 'react-router-dom';
 import Menu from './menu';
 import Usuario from './Usuarios';
+import Tareas from './Tareas';
 import Publicaciones from './Publicaciones';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
-const Tareas = () => {
-  return (
-    <div>
-      Tareas
-    </div>
-  );
-};
-
 
 const App = () => {
   return(
