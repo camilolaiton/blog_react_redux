@@ -27,7 +27,7 @@ class Usuario extends Component {
 
     if( this.props.error ) {
       return(
-        <Fatal error={ this.props.error }/>
+        <Fatal mensaje={ this.props.error }/>
       );
     }
     
